@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".laptop.VivoBookA409">
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASUS VivoBook A409"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/vivobook2"/>
+
+    <TextView
+
+        android:textColor="#000"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spesifikasi Laptop : "/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAM : 4 GB "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Processor : Intel® Core™ i7-8565U Processor, Intel® Core™ i5-8265U Processor"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operating System : Windows10 Home"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memory : 8GB DDR4 2400MHz (4GB + 4GB)"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp. 5.969.000"/>
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_lanjutkan"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan"/>
+    <Button
+        android:layout_marginTop="7dp"
+        android:id="@+id/btkembali"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>
+
+
+</LinearLayout>

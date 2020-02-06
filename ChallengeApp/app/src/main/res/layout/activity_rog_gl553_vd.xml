@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".laptop.RogGL553VD"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASUS ROG GL553VD"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/roggl553vd"/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spesifikasi Laptop : "/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAM : 8 GB "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="processor : Intel Core i7-7700HQ 2.8 GHz (6M Cache, up to 3.8 GHz)"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operating System : Windows10 Home"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storage :1TB 7200 rpm SATA HDD"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VGA : NVIDIA® GeForce® GTX 1050 , with 4GB GDDR5 VRAM"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp. 14.600.000"/>
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_lanjutkan"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan"/>
+    <Button
+        android:layout_marginTop="7dp"
+        android:id="@+id/btkembali"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>
+
+</LinearLayout>

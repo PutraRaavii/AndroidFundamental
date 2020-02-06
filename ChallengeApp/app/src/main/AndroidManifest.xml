@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.id.putra.test">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lol"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lol"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".terakhir.MainLast" android:label="ASUS Store"/>
+        <activity android:name=".pemesanan.MainPemesanan" android:label="ASUS Store"/>
+        <activity android:name=".pembayaran.MainPembayaran" android:label="ASUS Store"/>
+        <activity android:name=".laptop.VivoBookA409" android:label="ASUS Store"/>
+        <activity android:name=".laptop.RogStrixHero2" android:label="ASUS Store"/>
+        <activity android:name=".laptop.RogGL553VD" android:label="ASUS Store"/>
+        <activity android:name=".laptop.X455LA" android:label="ASUS Store"/>
+        <activity android:name=".laptop.X200CA" />
+        <activity android:name=".laptop.RogStrixG531GD" android:label="ASUS Store"/>
+        <activity android:name=".laptop.VivoBookA407MA" android:label="ASUS Store" />
+        <activity android:name=".MainActivity" android:label="ASUS Store">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

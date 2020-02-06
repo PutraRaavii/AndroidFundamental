@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".laptop.X200CA"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASUS X200CA"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/x200ca"/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spesifikasi Laptop : "/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAM : 2 GB, 4 GB "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intel® Celeron® Processor 1007U (2M Cache, 1.50 GHz) "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operating System : Windows10 Home"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memory : 2 GB DDR3 PC-12800 OnBoard"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp. 2.800.000"/>
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_lanjutkan"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan"/>
+    <Button
+        android:layout_marginTop="7dp"
+        android:id="@+id/btkembali"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kembali"/>
+
+</LinearLayout>

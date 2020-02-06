@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terakhir.MainLast"
+    android:background="@drawable/gray1"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckOut Pembelian Laptop ASUS"
+        android:textSize="10pt"
+        android:textColor="#E6E0E0"/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Pembeli :"/>
+    <TextView
+        android:textSize="8pt"
+        android:id="@+id/tv_namapembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laptop Yang Dibeli : "/>
+    <TextView
+        android:id="@+id/tv_laptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penggunaan Jasa kurir Pengiriman : "/>
+    <TextView
+        android:id="@+id/tv_jasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banyak Laptop Yang Dibeli : "/>
+    <TextView
+        android:id="@+id/tv_banyak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga Pengiriman Kurir : "/>
+    <TextView
+        android:id="@+id/tv_hargakirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga Laptop : "/>
+    <TextView
+        android:id="@+id/tv_hargalaptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+
+
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="#D5CCCC"
+        android:gravity="center"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Biaya Pembelian Laptop : "/>
+    <Button
+        android:id="@+id/bttotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "/>
+    <Button
+        android:id="@+id/bt_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Data Pembelian"/>
+    <Button
+        android:id="@+id/bt_recall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mengulangi Aplikasi"/>
+
+
+</LinearLayout>

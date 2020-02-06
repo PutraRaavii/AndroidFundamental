@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".laptop.X455LA"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ASUS X455LA"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/x455la"/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spesifikasi Laptop : "/>
+
+    <TextView
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RAM : 4 GB "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Processor : Intel® Core™ i3 4005U Processor 1.9 GHz"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operating System : Windows10 Home"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memory : DDR3L 1600 MHz SDRAM, OnBoard Memory 2 GB"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Storage : 500GB HDD"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VGA : Integrated Intel® HD Graphics 4400  "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga : Rp. 5.049.000"/>
+    <Button
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/bt_lanjutkan"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy"/>
+    <Button
+        android:layout_marginTop="7dp"
+        android:id="@+id/bt_kembali"
+        android:textSize="8pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"/>
+
+</LinearLayout>
